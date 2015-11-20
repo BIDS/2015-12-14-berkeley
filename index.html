@@ -1,19 +1,19 @@
 ---
 layout: workshop
 root: .
-venue: FIXME      # brief name of host site without address (e.g., "Euphoric State University")
-address: FIXME    # street address of workshop (e.g., "123 Forth Street, Blimingen, Euphoria")
-country: FIXME    # country (lowercase two-letter ISO code such as "fr" - see https://en.wikipedia.org/wiki/ISO_3166-1)
-language: FIXME   # language (lowercase two-letter ISO code such as "fr" - see https://en.wikipedia.org/wiki/ISO_639-1)
-latlng: FIXME     # fractional latitude and longitude (e.g., "41.7901128,-87.6007318"; you can use http://www.latlong.net/)
-humandate: FIXME  # human-readable date (e.g., "Feb 17-18, 2020")
-humantime: FIXME  # human-readable time (e.g., "9:00 am - 4:30 pm")
-startdate: FIXME  # use YYYY-MM-DD format like "2015-01-01"
-enddate: FIXME    # use YYYY-MM-DD format like" 2015-01-02"
-instructor: FIXME # list of names like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: FIXME     # list of names like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-contact: FIXME    # contact email address for workshop organizer, such as "grace@hopper.org"
-etherpad:         # optional (insert the URL for your Etherpad if you're using one)
+venue: University of California Berkeley      # brief name of host site without address (e.g., "Euphoric State University")
+address: 190 Doe Library    # street address of workshop (e.g., "123 Forth Street, Blimingen, Euphoria")
+country: us    # country (lowercase two-letter ISO code such as "fr" - see https://en.wikipedia.org/wiki/ISO_3166-1)
+language: en   # language (lowercase two-letter ISO code such as "fr" - see https://en.wikipedia.org/wiki/ISO_639-1)
+latlng: "37.871593, -122.272747"     # fractional latitude and longitude (e.g., "41.7901128,-87.6007318"; you can use http://www.latlong.net/)
+humandate: Dec 14-15, 2015  # human-readable date (e.g., "Feb 17-18, 2020")
+humantime: 9:00 am - 4:30 pm  # human-readable time (e.g., "9:00 am - 4:30 pm")
+startdate: 2015-12-14  # use YYYY-MM-DD format like "2015-01-01"
+enddate: 2015-12-15    # use YYYY-MM-DD format like" 2015-01-02"
+instructor: ["Justin Kitzes", "Daniel Turek", "Kunal Marwaha"] # list of names like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["Zhao Zhang", "Yu Feng", "Kyle Barbary"]     # list of names like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+contact: "jkitzes@berkeley.edu"    # contact email address for workshop organizer, such as "grace@hopper.org"
+etherpad: "http://pad.software-carpentry.org/2015-12-14-berkeley"        # optional (insert the URL for your Etherpad if you're using one)
 eventbrite:       # optional (insert the alphanumeric key for Eventbrite registration, e.g., "1234567890AB")
 ---
 <!--
@@ -56,8 +56,8 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
   is to help scientists and engineers get more research done in less
   time and with less pain by teaching them basic lab skills for
   scientific computing.  This hands-on workshop will cover basic
-  concepts and tools, including program design, version control, data
-  management, and task automation.  Participants will be encouraged to
+  concepts and tools, including the shell, program design, version control, 
+  testing, and task automation.  Participants will be encouraged to
   help one another and to apply what they have learned to their own
   research problems.
 </p>
@@ -148,23 +148,26 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
     <h3>Day 1</h3>
     <table class="table table-striped">
       <tr> <td>Arrival</td>  <td><a href='https://www.surveymonkey.com/r/swc_pre_workshop_v1?workshop_id={{ site.github.project_title }}'>Pre-workshop Survey</a></td> </tr>
-      <tr> <td>09:00</td>  <td>Automating tasks with the Unix shell</td> </tr>
-      <tr> <td>10:30</td> <td>Coffee</td> </tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Building programs with Python</td> </tr>
-      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>09:00-9:30</td>  <td>Setup and Introductions</td> </tr>
+      <tr> <td>09:30-10:45</td>  <td>Introducing the Shell</td> </tr>
+      <tr> <td>10:45-11</td> <td>Break</td> </tr>
+      <tr> <td>11:00-12:30</td> <td>Scientific Programming I</td> </tr>
+      <tr> <td>12:30-1:30</td>  <td>Lunch break</td> </tr>
+      <tr> <td>1:30-3:00</td>  <td>Scientific Programming II</td> </tr>
+      <tr> <td>3:00-3:15</td>  <td>Break</td> </tr>
+      <tr> <td>3:15-4:30</td>  <td>Scientific Programming Wrap Up</td> </tr>
     </table>
   </div>
   <div class="col-md-6">
     <h3>Day 2</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Version control with Git</td> </tr>
-      <tr> <td>10:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Managing data with SQL</td> </tr>
-      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>09:00-10:30</td>  <td>Version control I</td> </tr>
+      <tr> <td>10:30-10:45</td>  <td>Break</td> </tr>
+      <tr> <td>10:45-12:30</td>  <td>Version control II</td> </tr>
+      <tr> <td>12:30-1:30</td>  <td>Lunch</td> </tr>
+      <tr> <td>1:30-3:00</td>  <td>Testing and Modules</td> </tr>
+      <tr> <td>3:00-3:15</td>  <td>Break</td> </tr>
+      <tr> <td>3:15-4:30</td>  <td>Reproducible Workflows</td> </tr>
       <tr> <td>Dismissal</td>  <td><a href='https://www.surveymonkey.com/r/swc_post_workshop_v1?workshop_id={{ site.github.project_title }}'>Post-workshop Survey</a></td> </tr>
     </table>
   </div>
@@ -218,24 +221,22 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
     <h3>The Unix Shell</h3>
     <ul>
       <li>Files and directories</li>
-      <li>History and tab completion</li>
-      <li>Pipes and redirection</li>
-      <li>Looping over files</li>
-      <li>Creating and running shell scripts</li>
+      <li>Command line programs</li>
+      <li>Chaining commands</li>
       <li>Finding things</li>
       <li><a href="{{site.swc_githubio}}/shell-novice/reference.html">Reference...</a></li>
     </ul>
   </div>
   <div class="col-md-6">
-    <h3>Programming in Python</h3>
+    <h3>Scientific Programming</h3>
     <ul>
-      <li>Using libraries</li>
-      <li>Working with arrays</li>
-      <li>Reading and plotting data</li>
-      <li>Creating and using functions</li>
-      <li>Loops and conditionals</li>
-      <li>Defensive programming</li>
-      <li>Using Python from the command line</li>
+      <li>Things</li>
+      <li>Commands that operate on things</li>
+      <li>Groups of things</li>
+      <li>Repeating yourself</li>
+      <li>Making choices</li>
+      <li>Making chunks</li>
+      <li>Combining chunks</li>
       <li><a href="{{site.swc_githubio}}/python-novice-inflammation/reference.html">Reference...</a></li>
     </ul>
   </div>
@@ -271,18 +272,25 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
   <div class="col-md-6">
     <h3>Version Control with Git</h3>
     <ul>
-      <li>Creating a repository</li>
-      <li>Recording changes to files: <code>add</code>, <code>commit</code>, ...</li>
-      <li>Viewing changes: <code>status</code>, <code>diff</code>, ...</li>
-      <li>Ignoring files</li>
-      <li>Working on the web: <code>clone</code>, <code>pull</code>, <code>push</code>, ...</li>
-      <li>Resolving conflicts</li>
-      <li>Open licenses</li>
-      <li>Where to host work, and why</li>
+      <li>Getting started</li>
+      <li>Keeping file histories</li>
+      <li>Comparing file versions</li>
+      <li>Making branches</li>
+      <li>Merging branches</li>
+      <li>Sharing projects</li>
+      <li>Syncing and collaborating</li>
       <li><a href="{{site.swc_githubio}}/git-novice/reference.html">Reference...</a></li>
     </ul>
   </div>
   <div class="col-md-6">
+    <h3>Testing and reproducibility</h3>
+    <ul>
+      <li>Unit testing</li>
+      <li>Making modules</li>
+      <li>Integrated research workflows</li>
+    </ul>
+  </div>
+<!--   <div class="col-md-6">
     <h3>Managing Data with SQL</h3>
     <ul>
       <li>Reading and sorting data</li>
@@ -296,7 +304,7 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
       <li><a href="{{site.swc_githubio}}/sql-novice-survey/reference.html">Reference...</a></li>
     </ul>
   </div>
-</div>
+</div> -->
 
 <hr/>
 
@@ -596,98 +604,13 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
   </p>
 </div> <!-- End of 'Python' section. -->
 
-<div id="r"> <!-- Start of 'R' section. -->
-  <h3>R</h3>
-
-  <p>
-    <a href="http://www.r-project.org">R</a> is a programming language
-    that is especially powerful for data exploration, visualization, and
-    statistical analysis. To interact with R, we use
-    <a href="http://www.rstudio.com/">RStudio</a>.
-  </p>
-
-  <div class="row">
-    <div class="col-md-4">
-      <h4 id="r-windows">Windows</h4>
-      <p>
-        Install R by downloading and running
-        <a href="http://cran.r-project.org/bin/windows/base/release.htm">this .exe file</a>
-        from <a href="http://cran.r-project.org/index.html">CRAN</a>.
-        Also, please install the
-        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="r-macosx">Mac OS X</h4>
-      <p>
-        Install R by downloading and running
-        <a href="http://cran.r-project.org/bin/macosx/R-latest.pkg">this .pkg file</a>
-        from <a href="http://cran.r-project.org/index.html">CRAN</a>.
-        Also, please install the
-        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="r-linux">Linux</h4>
-      <p>
-        You can download the binary files for your distribution
-        from <a href="http://cran.r-project.org/index.html">CRAN</a>. Or
-        you can use your package manager (e.g. for Debian/Ubuntu
-        run <code>sudo apt-get install r-base</code> and for Fedora run
-        <code>sudo yum install R</code>).  Also, please install the
-        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
-      </p>
-    </div>
-  </div>
-</div> <!-- End of 'R' section. -->
-
-<div id="sql"> <!-- Start of 'SQLite' section. -->
-  <h3>SQLite</h3>
-
-  <p>
-    SQL is a specialized programming language used with databases.  We
-    use a simple database manager called
-    <a href="http://www.sqlite.org/">SQLite</a> in our lessons.
-  </p>
-
-  <div class="row">
-    <div class="col-md-4">
-      <h4 id="sql-windows">Windows</h4>
-      <p>
-        The <a href="{{site.swc_github}}/windows-installer">Software Carpentry Windows Installer</a>
-        installs SQLite for Windows.
-        If you used the installer to configure nano, you don't need to run it again.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="sql-macosx">Mac OS X</h4>
-      <p>
-        SQLite comes pre-installed on Mac OS X.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="sql-linux">Linux</h4>
-      <p>
-        SQLite comes pre-installed on Linux.
-      </p>
-    </div>
-  </div>
-
-  <p><strong>If you installed Anaconda, it also has a copy of SQLite
-    <a href="https://github.com/ContinuumIO/anaconda-issues/issues/307">without support to <code>readline</code></a>.
-    Instructors will provide a workaround for it if needed.</strong></p>
-</div> <!-- End of 'SQLite' section. -->
-
-<!--
-  Uncomment this section if you are using our virtual machine.
-
 <div id="vm">
   <h3>Virtual Machine</h3>
 
   <p>
-    Some instructors prefer to have learners use a virtual machine (VM)
-    rather than install software on their own computers.  If your
-    instructors have chosen to do this, please:
+    As a backup plan for any installation issues, you can download the
+    Software Carpentry virtual machine (VM)
+    rather than install software on your own computer.  To use the VM, please:
   </p>
   <ol>
     <li>
@@ -704,4 +627,3 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
     </li>
   </ol>
 </div>
--->
