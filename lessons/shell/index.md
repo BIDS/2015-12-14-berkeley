@@ -4,6 +4,9 @@ root: ../..
 title: Introducing the Shell
 ---
 
+Introducing the Shell
+=====================
+
 Our introduction to best practices in scientific computing begins with one of the oldest and most venerable software tools --- the shell. As with every tool and practice that we'll cover during these lessons, we'll only have time to introduce you to the very basics of using the shell. We'll focus our time here on (a) the core skills that you'll need to get stuff done, particularly those that you'll need to complete the other lessons in this series, and (b) the overarching concepts of scientific computing that the use of the shell illustrates.
 
 Before we get started, I'll note that some of you, especially those of you who deal routinely with large numbers of small files (i.e., sensor data saved every hour by an instrument), will benefit from learning more advanced skills than those that we'll cover here. If you're interested, check out [this more detailed shell tutorial](http://software-carpentry.org/lessons.html){:target="_blank"} from Software Carpentry.
