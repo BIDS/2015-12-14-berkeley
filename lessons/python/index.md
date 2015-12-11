@@ -42,17 +42,19 @@ Each of these lessons relies on several files that you should download and save 
 
 During the workshop, you should open and fill out the Student Notebooks below --- the Master Notebook is the same as the Student Notebook but has the answers to all of the exercises filled in. Feel free to review the Master Notebooks if you're stuck or if you are reviewing the lessons outside of a workshop.
 
+{% assign nbvurl = site.workshop_site | remove: 'http://' %}
+
 *   Scientific Programming I: Logistic growth
-    - Student Notebook: [Download](python1-student.ipynb), [View](http://nbviewer.ipython.org/url/datasci.kitzes.com/lessons/python/python1-student.ipynb)
-    - Master Notebook: [Download](python1-master.ipynb), [View](http://nbviewer.ipython.org/url/datasci.kitzes.com/lessons/python/python1-master.ipynb)
+    - Student Notebook: [Download](python1-student.ipynb), [View](http://nbviewer.ipython.org/url/{{nbvurl}}/lessons/python/python1-student.ipynb)
+    - Master Notebook: [Download](python1-master.ipynb), [View](http://nbviewer.ipython.org/url/{{nbvurl}}/lessons/python/python1-master.ipynb)
 
 *   Scientific Programming II: Analyzing bird counts
-    - Student Notebook: [Download](python2-student.ipynb), [View](http://nbviewer.ipython.org/url/datasci.kitzes.com/lessons/python/python2-student.ipynb)
-    - Master Notebook: [Download](python2-master.ipynb), [View](http://nbviewer.ipython.org/url/datasci.kitzes.com/lessons/python/python2-master.ipynb)
+    - Student Notebook: [Download](python2-student.ipynb), [View](http://nbviewer.ipython.org/url/{{nbvurl}}/lessons/python/python2-student.ipynb)
+    - Master Notebook: [Download](python2-master.ipynb), [View](http://nbviewer.ipython.org/url/{{nbvurl}}/lessons/python/python2-master.ipynb)
     - Data Tables: [Small table](birds_sm.csv), [Large table](birds_lg.csv)
 
 *   Extra: Plotting
-    - Master Notebook: [Download](matplotlib-master.ipynb), [View](http://nbviewer.ipython.org/url/datasci.kitzes.com/lessons/python/matplotlib-master.ipynb)
+    - Master Notebook: [Download](matplotlib-master.ipynb), [View](http://nbviewer.ipython.org/url/{{nbvurl}}/lessons/python/matplotlib-master.ipynb)
 
 Starting a Jupyter Notebook
 ---------------------------
