@@ -29,7 +29,7 @@ Launching the shell
 
 To get started, let's launch a shell session. If you're on a Mac, go to your Applications folder, then to the folder Utilities, then open the program Terminal. On Windows, presuming that you've installed Git for Windows as per the instructions, you can go to the Start menu, Programs, Git, and then open the Git Bash program. If you're running Linux, you probably already know where the shell is and how to use it --- if you're running our Linux Virtual Machine for the first time, look under the button at the bottom left of the screen (that looks like the old Windows Start Menu) for something called shell or terminal.
 
-Once you open the Terminal program, which runs the shell program for us, you'll see a blank window with something like this printed in it.
+Once you launch a terminal session, you'll see a window pop up with something like this printed in it.
 
     Last login: Thu Jan 16 17:50:22 on ttys001
     ~$ 
@@ -315,7 +315,7 @@ The real power of `grep`, however, comes from its ability to use a special langu
 
 To use regular expressions in our `grep` calls, we use the option `-E` to denote that we're using extended regular expression as our pattern. For example, here's an expression to find all lines that start with the letter "G"
 
-    workshop$ grep -E '^W' sorted_animals.csv
+    workshop$ grep -E '^G' sorted_animals.csv
     Gadwall,3
     Great Horned Owl,4
 
