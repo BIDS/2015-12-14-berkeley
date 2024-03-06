@@ -65,7 +65,7 @@ We'll use this code as a starting point for this lesson on modules and testing. 
 
 Up to this point, we've written and executed all of our Python code in Jupyter notebooks. A notebook is a great way to try new things and to write prototype code, and some "advanced" data scientists use notebooks for their entire workflow. However, the more common means of structuring scientific software is to save your code in various plain text files and to run these files from the command line. We'll look at how to do this now.
 
-To get started, open a plan text editor on your computer (you don't want to use `nano` for this exercise --- you'll want a fully fledged graphical editor). If you haven't downloaded a good plain text editor yet, you might try [Sublime Text](http://www.sublimetext.com/).
+To get started, open a plan text editor on your computer (you don't want to use `nano` for this exercise --- you'll want a fully fledged graphical editor). If you haven't downloaded a good plain text editor yet, you might try [Sublime Text](http://www.sublimetext.com/) or [CodeLobster](https://codelobster.com/).
 
 >### Exercise 1
 >Using your editor, copy and paste the entire block of code above into a file called `runall.py`. Change the data table from `birds_sm.csv` to `birds_lg.csv`, since we're now interested in running our full analysis. See the notes below for some potential issues to avoid.
